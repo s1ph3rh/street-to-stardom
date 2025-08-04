@@ -1,0 +1,20 @@
+function startCareer() {
+  const name = document.getElementById('playerName').value;
+  const age = document.getElementById('playerAge').value;
+  const team = document.getElementById('streetTeam').value;
+  const infoBox = document.getElementById('infoBox');
+
+  if (!name || !age || !team) {
+    infoBox.textContent = "Please fill out all fields to begin your journey.";
+    return;
+  }
+
+  infoBox.innerHTML = `
+    Welcome <strong>${name}</strong>!<br>
+    Age: ${age}<br>
+    Team: ${team}<br>
+    Your journey to stardom begins now! ⚽
+  `;
+
+  // Future: Load match scene or continue to training
+}

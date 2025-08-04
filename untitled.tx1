@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Career Begins</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Player Creation</h2>
+    <input type="text" id="playerName" placeholder="Enter your name">
+    <input type="number" id="playerAge" placeholder="Enter your age" min="12" max="20">
+    <select id="streetTeam">
+      <option value="">Select your street team</option>
+      <option value="Soweto Kings">Soweto Kings</option>
+      <option value="Zola Rovers">Zola Rovers</option>
+      <option value="Mapetla Street Stars">Mapetla Street Stars</option>
+    </select>
+    <button onclick="startCareer()">Start Career</button>
+    <div class="info" id="infoBox"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

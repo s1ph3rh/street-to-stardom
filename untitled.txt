@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Street to Stardom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚽ Street to Stardom</h1>
+    <p>Begin your journey from the dusty streets of Soweto to football greatness.</p>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <script>
+    function startGame() {
+      window.location.href = "game.html";
+    }
+  </script>
+</body>
+</html>
